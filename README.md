@@ -1,5 +1,8 @@
 # WorkBuddy Check-in
 
+[![ci](https://github.com/Nick-Job/workbuddy-checkin/actions/workflows/ci.yml/badge.svg)](https://github.com/Nick-Job/workbuddy-checkin/actions/workflows/ci.yml)
+[![python](https://img.shields.io/badge/python-3.9%2B-3776AB)](https://www.python.org/)
+
 一个独立实现的 WorkBuddy / CodeBuddy 每日签到与派猫猫旅行工具，同时也是一个可直接放进 Agent 技能目录的 Skill。
 
 - 纯 Python 标准库，无第三方依赖
