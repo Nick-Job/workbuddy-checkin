@@ -196,7 +196,7 @@ PYTHONPATH=src python3 -m unittest discover -s tests -v
 
 测试使用本地 HTTP server 模拟 OAuth 端点，不访问真实服务。CI 在 Python 3.9–3.13 上运行同一套测试。
 
-接口细节见 [docs/API.md](docs/API.md)。
+接口细节见 [docs/API.md](docs/API.md)。安全审计记录见 [SECURITY.md](SECURITY.md)。
 
 ## 已知限制
 
