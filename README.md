@@ -64,6 +64,16 @@ wb-checkin --help
 
 要求 Python 3.9+，不需要 `curl`。
 
+### 作为 Agent Skill 安装
+
+仓库根目录就是技能目录，`SKILL.md` 已就绪。以 Codex 为例：
+
+```bash
+ln -s "$PWD" ~/.codex/skills/workbuddy-checkin
+```
+
+之后 Agent 会按 `SKILL.md` 的约定调用本工具。
+
 ## 快速开始
 
 ### 1. 登录
