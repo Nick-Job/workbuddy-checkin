@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "workbuddy-checkin"
+version = "0.1.0"
+description = "Independent, dependency-free WorkBuddy/CodeBuddy check-in CLI and agent skill"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Nick-Job" }]
+keywords = ["workbuddy", "codebuddy", "checkin", "oauth", "agent-skill"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Operating System :: OS Independent",
+]
+
+[project.scripts]
+wb-checkin = "workbuddy_checkin.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
